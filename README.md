@@ -8,6 +8,6 @@ This tool allows you to create a CSV file that contains the publicly available o
 1. Clone the repository onto your computer
 2. Install Scrapy with `pip install Scrapy`
 4. Install bs4 with `pip install beautifulsoup4`
-5. `cd` into /asxscrape and run `python -m scrapy crawl asx_spider`. This will create a .html file in /asxscrape for every company that has ASX traded options. About 100 .html files will be generated.
-6. Run `python parser.py` from /asxscrape. parser.py will create a new CSV file, parse through the .html files one by one, extract the options data, and place the data into the CSV file.
+5. `cd` into /asx_options-master and run `python -m scrapy crawl asx_spider`. This will create a .html file in /asx_options-master for every company that has ASX traded options. About 100 .html files will be generated.
+6. Run `python parser.py` from /asx_options-master. parser.py will create a new CSV file, parse through the .html files one by one, extract the options data, and place the data into the CSV file.
 7. Copy-paste the data from the CSV file into a MS Excel spreadsheet.
