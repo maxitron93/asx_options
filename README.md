@@ -1,10 +1,9 @@
-# Context
-I am interested in data analysis and wanted to try some scraping. Some friends of mine are avid investors and wanted to be able to see all the publicly available ASX options data in one place. I built this scraper to put that information together.
+# Web scraper built with python, scrapy and beautifulsoup
 
-# What is ASX Scraper?
-This tool allows you to create a CSV file that contains the publicly available options data for all ASX traded options. Essentially, it generates a snapshot-in-time spreadsheet of all ASX traded options.
+## What is ASX Scraper?
+This scraper creates a CSV file that contains the publicly available options data for all ASX traded options. Essentially, it generates a snapshot-in-time spreadsheet of all ASX traded options, along with all the relevant information.
 
-# How to use ASX Scraper
+## How to use ASX Scraper
 1. Clone the repository onto your computer
 2. Install Scrapy with `pip install Scrapy`
 4. Install bs4 with `pip install beautifulsoup4`
